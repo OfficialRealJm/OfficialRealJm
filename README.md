@@ -22,7 +22,7 @@
 
 <div align="center">
   <br/>
-  <font color="#f97316"><b>🏷️ Latest release — v0.127.5</b></font>&nbsp;&nbsp;·&nbsp;&nbsp;<font color="#f97316"><b>⬇️ OTA updates — preview</b></font>&nbsp;&nbsp;·&nbsp;&nbsp;<font color="#f97316"><b>👁️ Profile views — 48</b></font>&nbsp;&nbsp;·&nbsp;&nbsp;<font color="#f97316"><b>🎯 Focus — VONNECT v0.127.5</b></font>
+  <font color="#f97316"><b>🏷️ Latest release — v0.129.0</b></font>&nbsp;&nbsp;·&nbsp;&nbsp;<font color="#f97316"><b>⬇️ OTA updates — preview</b></font>&nbsp;&nbsp;·&nbsp;&nbsp;<font color="#f97316"><b>👁️ Profile views — 48</b></font>&nbsp;&nbsp;·&nbsp;&nbsp;<font color="#f97316"><b>🎯 Focus — VONNECT v0.129.0</b></font>
 </div>
 
 
