@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="372" height="58" viewBox="0 0 372 58">
+  <defs>
+    <linearGradient id="btn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="55%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="55%" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- pill button -->
+  <rect x="2" y="2" width="368" height="54" rx="27" fill="url(#btn)"/>
+  <rect x="2" y="2" width="368" height="54" rx="27" fill="url(#shine)"/>
+  <rect x="2.75" y="2.75" width="366.5" height="52.5" rx="26.25" fill="none" stroke="#fdba74" stroke-opacity="0.55" stroke-width="1.5"/>
+
+  <!-- download arrow -->
+  <g transform="translate(56,29)" stroke="#ffffff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M0,-9 L0,4"/>
+    <path d="M-6.5,-2.5 L0,4.5 L6.5,-2.5"/>
+    <path d="M-8.5,10.5 L8.5,10.5"/>
+  </g>
+
+  <!-- android head -->
+  <g transform="translate(94,26)">
+    <path d="M-10.5,4 a10.5,10.5 0 0 1 21,0 z" fill="#ffffff"/>
+    <g stroke="#ffffff" stroke-width="1.8" stroke-linecap="round">
+      <line x1="-6.5" y1="-8.5" x2="-4" y2="-4.5"/>
+      <line x1="6.5" y1="-8.5" x2="4" y2="-4.5"/>
+    </g>
+    <circle cx="-4.2" cy="-1.5" r="1.4" fill="#ea580c"/>
+    <circle cx="4.2" cy="-1.5" r="1.4" fill="#ea580c"/>
+  </g>
+
+  <!-- label -->
+  <text x="118" y="34.5" font-family="Verdana, DejaVu Sans, sans-serif" font-size="16" font-weight="bold" fill="#ffffff" letter-spacing="0.5">Download Vonnect.apk</text>
+</svg>

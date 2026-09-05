@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="148" viewBox="0 0 760 148">
+  <rect width="760" height="148" rx="16" fill="#0d1117" stroke="#21262d"/>
+  <text x="60" y="52" font-family="Verdana, DejaVu Sans, sans-serif" font-size="22" font-weight="bold" fill="#f97316">Most Used Languages</text>
+  <rect x="60" y="70" width="640" height="1.5" fill="#f97316" opacity="0.25"/>
+  <text x="60" y="92" font-family="Verdana, DejaVu Sans, sans-serif" font-size="13" fill="#c9d1d9">HTML</text>
+  <text x="700" y="92" font-family="Verdana, DejaVu Sans, sans-serif" font-size="12" fill="#8b949e" text-anchor="end">50%</text>
+  <rect x="60" y="98" width="640" height="7" rx="3.5" fill="#21262d"/>
+  <rect x="60" y="98" width="320" height="7" rx="3.5" fill="#f97316" opacity="1"/>
+  <text x="60" y="118" font-family="Verdana, DejaVu Sans, sans-serif" font-size="13" fill="#c9d1d9">JavaScript</text>
+  <text x="700" y="118" font-family="Verdana, DejaVu Sans, sans-serif" font-size="12" fill="#8b949e" text-anchor="end">50%</text>
+  <rect x="60" y="124" width="640" height="7" rx="3.5" fill="#21262d"/>
+  <rect x="60" y="124" width="320" height="7" rx="3.5" fill="#f97316" opacity="0.88"/>
+</svg>

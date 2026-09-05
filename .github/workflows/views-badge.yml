@@ -1,0 +1,29 @@
+name: Refresh profile views count
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch latest count and update README
+        run: |
+          SVG=$(curl -s "https://komarev.com/ghpvc/?username=OfficialRealJm&style=flat")
+          N=$(echo "$SVG" | grep -o '<text[^>]*>[0-9][0-9,]*</text>' | grep -o '[0-9][0-9,]*' | tail -1 | tr -d ',')
+          echo "Profile views: $N"
+          sed -i -E "s/Profile views — [0-9,]+/Profile views — $N/" README.md
+
+      - name: Commit if changed
+        run: |
+          git config user.name "Vonnect Automation"
+          git config user.email "vonnect-automation@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || (git commit -m "refresh" && git push)
